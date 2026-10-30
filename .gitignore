@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+*.spec
+# Standalone binaries > 100MB (distributed via GitHub Releases)
+*.exe
+
+# User generated outputs
+*.xlsx
+*.xls
+*.csv
+*.pdf
+!templates/*.xlsx
+!examples/*.xlsx
+!examples/*.pdf
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
