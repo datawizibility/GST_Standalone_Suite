@@ -112,11 +112,12 @@ Every generated workbook strictly conforms to professional accounting standards:
 - **Number Format**: `#,##0.00`
 - **Formula-First Totals**: `=SUM(...)` formulas for dynamic recalculation in Excel.
 - **Multi-Tab Organization**:
-  1. `Executive Summary`: High-level metrics & KPI dashboard.
-  2. `Matched Invoices`: Exact and tolerance-matched records with match logic tag.
-  3. `Missing in GSTR-2B`: Invoices missing on portal, tagged with statutory notice risk.
-  4. `Missing in Books`: Unclaimed portal ITC (immediate cash saving opportunity).
-  5. `Supplier Risk Matrix`: Vendor-wise default ranking and recommended commercial actions.
+  1. `Executive Summary`: High-level metrics & statutory compliance KPI dashboard.
+  2. `Matched Invoices`: Exact and tolerance-matched records with audit match type tag.
+  3. `Tax Discrepancies`: Invoices with rate, taxable, or tax value variance between Books and Portal.
+  4. `Missing in GSTR-2B`: Invoices missing on portal, tagged with Section 16(2)(aa) notice risk.
+  5. `Unclaimed Portal ITC`: Missing in Books (immediate unclaimed cash saving opportunity).
+  6. `Supplier Risk Matrix`: Vendor-wise default ranking and recommended commercial actions.
 
 ---
 
